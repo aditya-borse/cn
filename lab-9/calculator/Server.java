@@ -38,6 +38,7 @@ public class Server {
                 throw new IllegalArgumentException("Invalid operator!");
         }
         System.out.println("Result: " + result);
+        out.println("Result: " + result);
         out.close();
         in.close();
         socket.close();

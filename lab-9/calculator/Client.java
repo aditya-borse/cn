@@ -9,8 +9,10 @@ public class Client {
         String expression = "5 + 3"; 
         out.println(expression);
         System.out.println("Expression sent: " + expression);
+        String response = in.readLine();
+        System.out.println("Response received: " + response);
         in.close();
         out.close();
         socket.close();
-    }
+    } 
 }
